@@ -14,7 +14,7 @@ int main() {
        for(j=i+1;j<k;j++)
        {
            d=strcmp(a[i],a[j]);
-            if(j>0)
+            if(d>0)
             {
             strcpy(t,a[i]);
             strcpy(a[i],a[j]);
